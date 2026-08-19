@@ -1,0 +1,23 @@
+# ── 비밀값: 절대 커밋 금지 ──────────────────────────────
+.env
+.streamlit/secrets.toml
+
+# ── '읽지 말라'고 표시된 원본 자료 (원하면 이 줄을 지워 포함) ──
+do not read/
+
+# ── Python ──────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# ── 진행 로그(훅 생성물) ────────────────────────────────
+progress/
+
+# ── OS ──────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# Claude Code 개인 로컬 설정
+.claude/settings.local.json
